@@ -35,7 +35,7 @@ namespace TorneoTenisMesa.Simulacion
             miTorneo.AgregarInscripcion(new Inscripcion(jugador3, miTorneo.IdTorneo));
             miTorneo.AgregarInscripcion(new Inscripcion(jugador4, miTorneo.IdTorneo));
             // No inscribimos a jugador5 para tener un número par o para probar bye
-            // miTorneo.AgregarInscripcion(new Inscripcion(jugador5, miTorneo.IdTorneo));
+            miTorneo.AgregarInscripcion(new Inscripcion(jugador5, miTorneo.IdTorneo));
             miTorneo.CerrarInscripciones();
 
             Console.WriteLine("\n--- FASE 3: Inicio y Desarrollo del Torneo ---");
